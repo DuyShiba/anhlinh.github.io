@@ -24,7 +24,7 @@ function App() {
             <ProfileCard
               name="Anh Duy"
               title="Information Security"
-              avatar="avatar"
+              avatar={avatar}
               description="Eat for life"
             />
             <InfoCard />
