@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../assets/avt.jpg';
+import avatar from './assets/avt.jpg';
 import { ProfileCard } from './components/ProfileCard';
 import { InfoCard } from './components/InfoCard';
 import { TechnicalSkills } from './components/TechnicalSkills';
