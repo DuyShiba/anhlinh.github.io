@@ -6,6 +6,7 @@ import { TechnicalSkills } from './components/TechnicalSkills';
 import { SocialCard } from './components/SocialCard';
 import { Categories } from './components/Categories';
 import { Achievements } from './components/Achievements';
+import { Labs } from './components/Labs';
 
 function App() {
   return (
@@ -48,7 +49,12 @@ function App() {
             <Achievements />
           </div>
         </div>
-       
+
+        {/* Labs Section - Full Width */}
+        <div className="mt-8">
+          <Labs />
+        </div>
+
         {/* Footer */}
         <footer className="mt-16 text-center">
           <div className="inline-flex items-center space-x-2 px-6 py-3 bg-gray-800/50 rounded-full border border-gray-700">
